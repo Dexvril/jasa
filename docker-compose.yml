@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  hosting-site:
+    build: .
+    container_name: hosting-site
+    ports:
+      - "80:80"
+    restart: unless-stopped
