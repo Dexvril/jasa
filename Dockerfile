@@ -1,10 +1,10 @@
-# Gunakan image node untuk build
-FROM node:20 AS builder
+# Gunakan image Bun untuk build
+FROM oven/bun:1.1.13 AS builder
 
 WORKDIR /app
 COPY . .
-RUN npm install
-RUN npm run build
+RUN bun install
+RUN bun run build
 
 # Gunakan image nginx untuk serve static files
 FROM nginx:alpine
