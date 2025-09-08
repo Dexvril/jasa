@@ -1,17 +1,17 @@
-<script>
-    // Anda bisa menambahkan logic di sini jika diperlukan
-</script>
-
 <main>
     <h1>Selamat Datang di Layanan Hosting nvrl.my.id</h1>
+
+    <!-- Gambar dari static -->
+    <img src="/serv.jpeg" alt="Ilustrasi Hosting" class="hero-img">
+
     <p>Kami menyediakan layanan hosting untuk website Anda dengan performa tinggi dan harga terjangkau.</p>
     <ul>
         <li>Hosting VPS</li>
         <li>Domain & SSL</li>
         <li>Support 24/7</li>
     </ul>
-        <a href="https://wa.me/6283138955140" class="btn" target="_blank" rel="noopener">
-        Hubungi Kami
+    <a href="https://wa.me/6283138955140" class="btn" target="_blank" rel="noopener">
+        Hubungi Whatsapp Kami
     </a>
 </main>
 
@@ -23,6 +23,12 @@
         background: #fff;
         border-radius: 8px;
         box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+    .hero-img {
+        max-width: 100%;
+        border-radius: 8px;
+        margin: 1rem 0;
     }
     .btn {
         display: inline-block;
